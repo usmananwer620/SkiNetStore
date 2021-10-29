@@ -721,7 +721,8 @@
       "Infrastructure/1.0.0": {
         "dependencies": {
           "Core": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "5.0.11"
+          "Microsoft.EntityFrameworkCore": "5.0.11",
+          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.11"
         },
         "runtime": {
           "Infrastructure.dll": {}

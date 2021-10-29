@@ -1335,11 +1335,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Workspace\\skinet\\API\\API.csproj",
+      "projectUniqueName": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "d:\\Workspace\\skinet\\API\\API.csproj",
+      "projectPath": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\API\\API.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "d:\\Workspace\\skinet\\API\\obj\\",
+      "outputPath": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -1361,8 +1361,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "d:\\Workspace\\skinet\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "d:\\Workspace\\skinet\\Infrastructure\\Infrastructure.csproj"
+            "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

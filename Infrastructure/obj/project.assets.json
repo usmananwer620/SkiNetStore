@@ -961,11 +961,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Workspace\\skinet\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "d:\\Workspace\\skinet\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "d:\\Workspace\\skinet\\Infrastructure\\obj\\",
+      "outputPath": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -987,8 +987,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "d:\\Workspace\\skinet\\Core\\Core.csproj": {
-              "projectPath": "d:\\Workspace\\skinet\\Core\\Core.csproj"
+            "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Core\\Core.csproj": {
+              "projectPath": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Core\\Core.csproj"
             }
           }
         }

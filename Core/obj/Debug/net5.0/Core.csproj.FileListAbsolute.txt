@@ -10,3 +10,15 @@ D:\Workspace\skinet\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
 D:\Workspace\skinet\Core\obj\Debug\net5.0\Core.dll
 D:\Workspace\skinet\Core\obj\Debug\net5.0\ref\Core.dll
 D:\Workspace\skinet\Core\obj\Debug\net5.0\Core.pdb
+D:\Workspace\SkiNetStore\SkiNetStore\Core\bin\Debug\net5.0\Core.deps.json
+D:\Workspace\SkiNetStore\SkiNetStore\Core\bin\Debug\net5.0\Core.dll
+D:\Workspace\SkiNetStore\SkiNetStore\Core\bin\Debug\net5.0\ref\Core.dll
+D:\Workspace\SkiNetStore\SkiNetStore\Core\bin\Debug\net5.0\Core.pdb
+D:\Workspace\SkiNetStore\SkiNetStore\Core\obj\Debug\net5.0\Core.csproj.AssemblyReference.cache
+D:\Workspace\SkiNetStore\SkiNetStore\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\SkiNetStore\SkiNetStore\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+D:\Workspace\SkiNetStore\SkiNetStore\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+D:\Workspace\SkiNetStore\SkiNetStore\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+D:\Workspace\SkiNetStore\SkiNetStore\Core\obj\Debug\net5.0\Core.dll
+D:\Workspace\SkiNetStore\SkiNetStore\Core\obj\Debug\net5.0\ref\Core.dll
+D:\Workspace\SkiNetStore\SkiNetStore\Core\obj\Debug\net5.0\Core.pdb

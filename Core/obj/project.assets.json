@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Workspace\\skinet\\Core\\Core.csproj",
+      "projectUniqueName": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "D:\\Workspace\\skinet\\Core\\Core.csproj",
+      "projectPath": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\Workspace\\skinet\\Core\\obj\\",
+      "outputPath": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

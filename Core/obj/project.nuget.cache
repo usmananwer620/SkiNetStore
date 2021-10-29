@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dxoYdCO76SvA8fVuHKggFtK0IPAKaw73gW+fXQw2UJYOrhXlKEvm94KXt5f3oSU+fsBNhVqldU6YLJVrpE4LIA==",
+  "dgSpecHash": "J1fOM7uQXHK1t7eHTIVftH++Z+zkbYOm076jY9JFttGmdEJjNl3ZKe4yXjd0bCdVdMjSdomUvGJejPZXEHkTeg==",
   "success": true,
-  "projectFilePath": "d:\\Workspace\\skinet\\Core\\Core.csproj",
+  "projectFilePath": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Core\\Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

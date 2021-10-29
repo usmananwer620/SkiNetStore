@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Workspace\\skinet\\API\\API.csproj": {}
+    "D:\\Workspace\\SkiNetStore\\SkiNetStore\\API\\API.csproj": {}
   },
   "projects": {
-    "d:\\Workspace\\skinet\\API\\API.csproj": {
+    "D:\\Workspace\\SkiNetStore\\SkiNetStore\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Workspace\\skinet\\API\\API.csproj",
+        "projectUniqueName": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "d:\\Workspace\\skinet\\API\\API.csproj",
+        "projectPath": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\API\\API.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "d:\\Workspace\\skinet\\API\\obj\\",
+        "outputPath": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -33,8 +33,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "d:\\Workspace\\skinet\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "d:\\Workspace\\skinet\\Infrastructure\\Infrastructure.csproj"
+              "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -90,14 +90,14 @@
         }
       }
     },
-    "d:\\Workspace\\skinet\\Core\\Core.csproj": {
+    "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Workspace\\skinet\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "d:\\Workspace\\skinet\\Core\\Core.csproj",
+        "projectPath": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "d:\\Workspace\\skinet\\Core\\obj\\",
+        "outputPath": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -149,14 +149,14 @@
         }
       }
     },
-    "d:\\Workspace\\skinet\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Workspace\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "d:\\Workspace\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "d:\\Workspace\\skinet\\Infrastructure\\obj\\",
+        "outputPath": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -178,8 +178,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "d:\\Workspace\\skinet\\Core\\Core.csproj": {
-                "projectPath": "d:\\Workspace\\skinet\\Core\\Core.csproj"
+              "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Core\\Core.csproj": {
+                "projectPath": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\Core\\Core.csproj"
               }
             }
           }

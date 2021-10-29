@@ -13,3 +13,17 @@ D:\Workspace\skinet\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CopyCo
 D:\Workspace\skinet\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
 D:\Workspace\skinet\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
 D:\Workspace\skinet\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
+D:\Workspace\SkiNetStore\SkiNetStore\Infrastructure\bin\Debug\net5.0\Infrastructure.deps.json
+D:\Workspace\SkiNetStore\SkiNetStore\Infrastructure\bin\Debug\net5.0\Infrastructure.dll
+D:\Workspace\SkiNetStore\SkiNetStore\Infrastructure\bin\Debug\net5.0\ref\Infrastructure.dll
+D:\Workspace\SkiNetStore\SkiNetStore\Infrastructure\bin\Debug\net5.0\Infrastructure.pdb
+D:\Workspace\SkiNetStore\SkiNetStore\Infrastructure\bin\Debug\net5.0\Core.dll
+D:\Workspace\SkiNetStore\SkiNetStore\Infrastructure\bin\Debug\net5.0\Core.pdb
+D:\Workspace\SkiNetStore\SkiNetStore\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.AssemblyReference.cache
+D:\Workspace\SkiNetStore\SkiNetStore\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\SkiNetStore\SkiNetStore\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Workspace\SkiNetStore\SkiNetStore\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
+D:\Workspace\SkiNetStore\SkiNetStore\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Workspace\SkiNetStore\SkiNetStore\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
+D:\Workspace\SkiNetStore\SkiNetStore\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
+D:\Workspace\SkiNetStore\SkiNetStore\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
