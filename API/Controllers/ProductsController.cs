@@ -49,7 +49,7 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        [Route("product_brands")]
+        [Route("product_types")]
         public async Task<ActionResult<List<ProductType>>> GetProductTypes()
         {
             var productTypes = await _productRepository.GetProductTypesAsync();

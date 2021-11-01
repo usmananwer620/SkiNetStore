@@ -27,3 +27,4 @@ D:\Workspace\SkiNetStore\SkiNetStore\Infrastructure\obj\Debug\net5.0\Infrastruct
 D:\Workspace\SkiNetStore\SkiNetStore\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
 D:\Workspace\SkiNetStore\SkiNetStore\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
 D:\Workspace\SkiNetStore\SkiNetStore\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
+D:\Workspace\SkiNetStore\SkiNetStore\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CopyComplete
