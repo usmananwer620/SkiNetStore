@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "bSLIQyJPG1p2EYFNnBsMapnvZN1MQ7i1b2u+6zIjk3Oz6KDjrT2/HC3X7mLJGyd49Val4TktrV1MGexGTqHFDQ==",
+  "dgSpecHash": "z9fF4Rmjz8mpFZ1kQS+cXZGCp2e2kYNVXR6rtb/SYuMLVPlwwrBNajcceFlFNgerfydAi9MjBptbfznCmwmkhg==",
   "success": true,
   "projectFilePath": "D:\\Workspace\\SkiNetStore\\SkiNetStore\\API\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.11\\microsoft.data.sqlite.core.5.0.11.nupkg.sha512",
@@ -39,7 +41,8 @@
     "C:\\Users\\ADMIN\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
-    "C:\\Users\\ADMIN\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+    "C:\\Users\\ADMIN\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

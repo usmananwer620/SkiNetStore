@@ -118,3 +118,5 @@ D:\Workspace\SkiNetStore\SkiNetStore\API\obj\Debug\net5.0\API.dll
 D:\Workspace\SkiNetStore\SkiNetStore\API\obj\Debug\net5.0\ref\API.dll
 D:\Workspace\SkiNetStore\SkiNetStore\API\obj\Debug\net5.0\API.pdb
 D:\Workspace\SkiNetStore\SkiNetStore\API\obj\Debug\net5.0\API.genruntimeconfig.cache
+D:\Workspace\SkiNetStore\SkiNetStore\API\bin\Debug\net5.0\AutoMapper.dll
+D:\Workspace\SkiNetStore\SkiNetStore\API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

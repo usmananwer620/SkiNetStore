@@ -1,9 +1,10 @@
+using API.DTOs;
+using AutoMapper;
 using Core.Entities;
 using Core.Interfaces;
-using Infrastructure.Data;
+using Core.Specifications;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -13,36 +14,49 @@ namespace API.Controllers
     [Route("api/[controller]")]
     public class ProductsController : ControllerBase
     {
-        private readonly IProductRepository _productRepository;
+        private readonly IGenericRepository<Product> _productRepo;
+        private readonly IGenericRepository<ProductBrand> _productBrandRepo;
+        private readonly IGenericRepository<ProductType> _productTypeRepo;
+        private readonly IMapper _mapper;
 
-        public ProductsController(IProductRepository productRepository)
+        public ProductsController(IGenericRepository<Product> productRepo,
+            IGenericRepository<ProductBrand> productBrandRepo,
+            IGenericRepository<ProductType> productTypeRepo,
+            IMapper mapper)
         {
-            _productRepository = productRepository;
+            _productRepo = productRepo;
+            _productBrandRepo = productBrandRepo;
+            _productTypeRepo = productTypeRepo;
+            _mapper = mapper;
         }
         [HttpGet]
         [Route("products")]
-        public async Task<ActionResult<List<Product>>> GetProducts()
+        public async Task<ActionResult<List<ProductToReturnDTO>>> GetProducts()
         {
-            var products = await _productRepository.GetProductsAsync();
-            return Ok(products);
+            var specs = new ProductsWithBrandsAndTypeSpecification();
+            var products = await _productRepo.ListAsync(specs);
+            var productsDTOs = _mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDTO>>(products);
+            return Ok(productsDTOs);
         }
 
         [HttpGet]
         [Route("product")]
-        public async Task<ActionResult<Product>> GetProduct(int productId)
+        public async Task<ActionResult<ProductToReturnDTO>> GetProduct(int productId)
         {
-            var product = await _productRepository.GetProductByIdAsync(productId);
+            var specs = new ProductsWithBrandsAndTypeSpecification(productId);
+            var product = await _productRepo.GetEntityWithSpec(specs);
             if (product == null)
                 return NotFound($"Product with id {productId} is not found.");
 
-            return Ok(product);
+            var productDTO = _mapper.Map<Product, ProductToReturnDTO>(product);
+            return Ok(productDTO);
         }
 
         [HttpGet]
         [Route("product_brands")]
         public async Task<ActionResult<List<ProductBrand>>> GetProductBrands()
         {
-            var productBrands = await _productRepository.GetProductBrandsAsync();
+            var productBrands = await _productBrandRepo.GetAllAsync();
             if (productBrands == null)
                 return BadRequest(StatusCodes.Status404NotFound);
             return Ok(productBrands);
@@ -52,7 +66,7 @@ namespace API.Controllers
         [Route("product_types")]
         public async Task<ActionResult<List<ProductType>>> GetProductTypes()
         {
-            var productTypes = await _productRepository.GetProductTypesAsync();
+            var productTypes = await _productTypeRepo.GetAllAsync();
             if (productTypes == null)
                 return BadRequest(StatusCodes.Status404NotFound);
 
@@ -63,7 +77,7 @@ namespace API.Controllers
         [Route("product_type")]
         public async Task<ActionResult<ProductType>> GetProductTypeById(int productTypeId)
         {
-            var productType = await _productRepository.GetProductTypeByIdAsync(productTypeId);
+            var productType = await _productTypeRepo.GetByIdAsync(productTypeId);
             if (productType == null)
                 return BadRequest(StatusCodes.Status404NotFound);
 
@@ -74,7 +88,7 @@ namespace API.Controllers
         [Route("product_brand")]
         public async Task<ActionResult<ProductBrand>> GetProductBrandById(int productBrandId)
         {
-            var productBrand = await _productRepository.GetProductBrandByIdAsync(productBrandId);
+            var productBrand = await _productBrandRepo.GetByIdAsync(productBrandId);
             if (productBrand == null)
                 return BadRequest(StatusCodes.Status404NotFound);
 
